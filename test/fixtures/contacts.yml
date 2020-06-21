@@ -1,15 +1,8 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  phone_number: MyString
-  message: MyText
-
-two:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  phone_number: MyString
-  message: MyText
+  first_name: 'Iron'
+  last_name: 'Man'
+  email: 'ironman@avengers.com'
+  phone_number: '9800997711'
+  message: 'Avengers will not save you from covid'
