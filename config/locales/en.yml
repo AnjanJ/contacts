@@ -31,3 +31,16 @@
 
 en:
   hello: "Hello world"
+  tell_us_your_name_html: "Tell us your name"
+  send_us_a_message_html: "Send us a Message"
+  enter_your_email_html: "Enter your email"
+  enter_your_phone_html: "Enter phone number"
+  message_html: "Message"
+  send_message_html: "Send Message"
+  first_name_html: "First name"
+  last_name_html: "Last Name"
+  write_message_html: "Write us a message"
+  address_html: "Address"
+  detail_address_html: "Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US "
+  talk_html: "Lets Talk"
+  support_html: "General Support" 
