@@ -7,7 +7,8 @@
 
             <label class="label-input100" for="first-name"><%= t 'tell_us_your_name_html' %> *</label>
             <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-                <input id="first-name" class="input100" type="text" name="contact[first_name]" placeholder="<%= t 'first_name_html' %>">
+                <input id="first-name" class="input100" type="text" name="contact[first_name]"
+                    placeholder="<%= t 'first_name_html' %>">
                 <span class="focus-input100"></span>
             </div>
             <div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
@@ -98,13 +99,3 @@
 
 
 <div id="dropDownSelect1"></div>
-<script>
-    function submitFrmAjax() {
-        console.log('I am Inside');
-        $.ajax({
-            url: "/contacts",
-            type: "POST",
-            data: $("form").serialize()
-        });
-    }
-</script>
