@@ -1,14 +1,27 @@
+
 ru:
-  hello: "Привет"
-  tell_us_your_name_html: "Скажи нам свое имя"
-  send_us_a_message_html: "Отправьте нам сообщение"
-  enter_your_email_html: "Введите адрес электронной почты"
-  message_html: "Сообщение"
-  send_message_html: "Отправить сообщение"
-  first_name_html: "Имя"
-  last_name_html: "Фамилия"
-  write_message_html: "Напишите нам сообщение"
-  address_html: "Адрес"
-  detail_address_html: "Мада Центр 8 этаж, 379 Hudson St, Нью-Йорк, NY 10018 US"
-  talk_html: "Давайте поговорим"
-  support_html: "Общая поддержка" 
+  contact:
+    inputs:
+      first_name:
+        label: "Скажи нам свое имя"
+        place_holder: "Имя"
+      last_name:
+        label: "Скажи нам свое имя"
+        place_holder: "Фамилия"
+      email:
+        label: "Введите адрес электронной почты"
+        place_holder: "Например. example@email.com"
+      phone_number:
+        label: "Введите номер телефона"
+        place_holder: "Например. +1 800 000000"
+      message:
+        label: "Сообщение"
+        place_holder: "Напишите нам сообщение"
+    form:
+      static_text:
+        form_title: "Отправьте нам сообщение"
+        button: "Отправить сообщение"
+        address: "Адрес"
+        detail_address: "Мада Центр 8 этаж, 379 Hudson St, Нью-Йорк, NY 10018 US"
+        talk: "Давайте поговорим"
+        support: "Общая поддержка"
