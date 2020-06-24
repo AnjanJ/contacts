@@ -1,116 +1,159 @@
 {
   "Minitest": {
     "coverage": {
-      "/home/anjan/code/rails/ajakcus/test/controllers/contacts_controller_test.rb": {
+    },
+    "timestamp": 1593011823
+  },
+  "Unit Tests": {
+    "coverage": {
+      "/home/anjan/code/rails/ajakcus/app/models/application_record.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
           0,
           0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          null
-        ]
+          0
+        ],
+        "branches": {
+        }
       },
-      "/home/anjan/code/rails/ajakcus/test/mailers/contact_mailer_test.rb": {
+      "/home/anjan/code/rails/ajakcus/app/models/contact.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          0,
-          0,
           0,
           0,
           0,
           null,
           0,
-          0,
           null,
           0,
           0,
-          null,
           0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null
-        ]
+          0
+        ],
+        "branches": {
+        }
       },
-      "/home/anjan/code/rails/ajakcus/test/models/contact_test.rb": {
+      "/home/anjan/code/rails/ajakcus/app/controllers/application_controller.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          1,
+          0,
           0,
           null,
-          null,
-          1,
           0,
           null,
-          null,
-          1,
           0,
           0,
           0,
           null,
-          null,
-          1,
           0,
           0,
           0,
-          null,
-          null,
-          1,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/controllers/contacts_controller.rb": {
+        "lines": [
           0,
-          0,
-          0,
-          null,
-          null,
-          1,
           0,
           0,
           0,
           null,
-          null,
-          1,
-          0,
           0,
           0,
           null,
-          null
-        ]
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/helpers/contacts_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/home/anjan/code/rails/ajakcus/app/mailers/contact_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1592765531
+    "timestamp": 1593009578
   }
 }

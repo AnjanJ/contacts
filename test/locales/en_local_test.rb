@@ -32,9 +32,9 @@ class LocaleEnglishTest < ActiveSupport::TestCase
         assert_equal "Enter phone number", @phone_number_label
         assert_equal "Eg. +1 800 000000", @phone_number_place_holder
         assert_equal "Message", @message_label
-        assert_equal "Message", @message_place_holder
-        assert_equal "Write us a message",  @form_title
-        assert_equal "Send us a Message", @button
+        assert_equal "Write us a message", @message_place_holder
+        assert_equal "Send us a Message",  @form_title
+        assert_equal "Send Message", @button
         assert_equal "Address", @address
         assert_equal "Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US ", @detail_address
         assert_equal  "Lets Talk", @talk
