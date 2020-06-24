@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class LocaleTest < ActiveSupport::TestCase
+class LocaleRussianTest < ActiveSupport::TestCase
     setup do
         I18n.locale= :ru
         @first_name_label = I18n.t "contact.inputs.first_name.label"
