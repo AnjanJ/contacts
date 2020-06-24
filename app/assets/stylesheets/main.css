@@ -511,6 +511,12 @@ textarea.input100 {
   opacity: 1;
 }
 
+.custom-img{
+  background-image: url('bg-01.jpg');
+  width:xxpx;
+  height:xxpx;
+}
+
 @media (max-width: 992px) {
   .alert-validate::before {
     visibility: visible;
