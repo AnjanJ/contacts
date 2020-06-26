@@ -5,18 +5,18 @@ RSpec.describe "/contacts", type: :request do
     # adjust the attributes here as well.
     let(:valid_attributes) { 
         {
-             "first_name" => "John", 
-             "last_name" => "Doe",
-             "email" => "john@doe.com",
-             "phone_number" => "9988117722",
-             "message" => "This is a message"
+             first_name: "John", 
+             last_name:  "Doe",
+             email: "john@doe.com",
+             phone_number: "9988117722",
+             message: "This is a message"
          } 
     }
   
     let(:invalid_attributes) {
       {
-          "first_name" => 1233,
-          "last_name" => nil
+          first_name: 1233,
+          last_name: nil
       }
     }
   
