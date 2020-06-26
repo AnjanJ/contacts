@@ -18,5 +18,11 @@ module Ajakcus
     # languages
     config.i18n.available_locales = [:en, :ru]
     config.i18n.default_locale = :en
+    # rspec config
+    config.generators do |g|
+      g.test_framework :rspec,
+      fixtures: false,
+      view_specs: false,
+    end
   end
 end
